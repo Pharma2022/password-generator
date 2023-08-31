@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="main flex-col">
+      <h1 class="title container">Generate a <span class="green-text">Random Password</span></h1>
+      <h3 class="subtitle container">Never use an insecure password again </h3>
+            
+      <div class="container flex-col">
+        <fieldset class="flex-col">
+          <legend>Strengthen your passwords. Include:</legend>
+          <div class="checkbox-container flex-col">
+            <label class="flex-row" for="uppercase">Capitals
+               <input type="checkbox" id="uppercase"></label>
+            <label class="flex-row" for="numbers">Number
+                <input type="checkbox" id="numbers"></label>
+            <label class="flex-row" for="symbols">Symbols
+                <input type="checkbox" id="symbols"></label>
+          </div>
+  
+        </fieldset>
+        <label for="pass-length" class="pass-length-label flex-row">
+          <span>Set Length <span id="pass-length-text" class="green-text">15</span> characters</span> 
+          <input type="range" class="pass-length" id="pass-length" value="15" min="8" max="25">
+        </label>
+        <button class="btn-primary generate-passwords"  id="generate">Generate passwords</button>
+
+        <hr/>
+        <div class="container passwords-container flex-row wrap">
+          <span class="password" id="pass-one"></span>
+          <span class="password" id="pass-two"></span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
