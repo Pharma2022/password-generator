@@ -112,16 +112,16 @@ fieldset{
 }
 
 .pass-length-label{
-  margin-block: 1rem;
+  margin-block: .7rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
+  gap:1.5rem;
+  padding: 1rem;
 
 
 }
 .pass-length{
-
-  padding: 1rem;
   accent-color: var(--green-tertiary);
 
 }
