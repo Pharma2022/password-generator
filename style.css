@@ -94,6 +94,12 @@ body{
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   margin: auto;
 }
+.btn:hover,.btn:focus{
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.8;
+  scale: 1.05;
+}
 
 fieldset{
   text-align: center;
@@ -131,8 +137,7 @@ fieldset{
   justify-content: center;
 }
 .password{
-  min-width: 50%;
-  cursor: pointer;
+  min-width: 13rem;
   flex: 1;
   background-color: var(--navy-blue);
   color:var(--green-tertiary);
