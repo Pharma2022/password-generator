@@ -68,7 +68,7 @@ body{
 @media(min-width: 500px){
   .container{
     padding: 1rem;
-    max-width: 500px;
+    max-width: 600px;
   }
 }
 
