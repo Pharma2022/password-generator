@@ -8,26 +8,27 @@ $ npm run dev
 ````
 
 See [Demo](https://shahs-password-generator.netlify.app/)
+Note that the demo is of my react version that has dark mode. This repo lacks dark mode but otherwise is identical. 
 
-
-This password generator was actually made via React. You can visit the original repo which does not include the dark mode [here](https://github.com/Pharma2022/password-generator/). 
+This password generator was actually made via React. You can see the react version of the repo here https://github.com/Pharma2022/password-generator-react/ . 
 
 ## Functionality
-- First select if you want your passwords to include numbers, letters or symbols using the checkboxes, useEffect will update the state 
-- On submission, the saved state will be used to generate random passwords. This is achieved through indexing the array which is saved in state. 
+- First select if you want your passwords to include numbers, letters or symbols using the checkboxes
+- On submission, random passwords will be rendered. This is achieved through indexing the selected array . 
 - You can copy the generated password 
 
 ##Frameworks/Libraries/Apis used
-- React
+- Math.random()
 - Navigator Clipboard API
+- Use of spread operator 
 
 ## Stretch goals
-- I have coded this using react, mainly because I wanted to integrate dark mode - it is possible to achieve this without react though
-- I have also added copy functionality (which my vanilla js version has )
+- I have recoded this using react, mainly because I wanted to integrate dark mode - it is possible to achieve this without react though
+- I have also added copy functionality 
 
 ## Further Stretch Goals/General Improvements
 - I would like to break my CSS into typography to make maintenance easier from a responsive design point of view
-- It would be nice to connect firebase instead of having data.js
+- It would be nice to save the arrays on firebase instead of having them here. 
 
 ### If you wish to connect with me or find out more about my projects you can:
 - Visit my [linkedin](https://www.linkedin.com/in/shah-aowal-17b59653/)
