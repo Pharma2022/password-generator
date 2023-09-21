@@ -10,7 +10,7 @@ $ npm run dev
 See [Demo](https://shahs-password-generator.netlify.app/)
 Note that the demo is of my react version that has dark mode. This repo lacks dark mode but otherwise is identical. 
 
-This password generator was actually made via React. You can see the react version of the repo here https://github.com/Pharma2022/password-generator-react/ . 
+This password generator was actually made via React. You can see the react version of the repo [here](https://github.com/Pharma2022/password-generator-react/) . 
 
 ## Functionality
 - First select if you want your passwords to include numbers, letters or symbols using the checkboxes
